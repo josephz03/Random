@@ -1,5 +1,8 @@
 import arcade
 
+# shows the current screen
+current_screen = 0
+
 
 def on_update(delta_time):
     pass
