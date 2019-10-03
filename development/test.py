@@ -1,26 +1,26 @@
-import pygame
+# import pygame
 
-pygame.init()
+# pygame.init()
 
-# display dimensions
-display_width = 1200
-display_height = 640
+# # display dimensions
+# display_width = 1200
+# display_height = 640
 
-white = (255, 255, 255)
+# white = (255, 255, 255)
 
-displayScreen = pygame.display.set_mode((display_width, display_height))
-pygame.display.set_caption('Somegame')
-clock = pygame.time.Clock()
+# displayScreen = pygame.display.set_mode((display_width, display_height))
+# pygame.display.set_caption('Somegame')
+# clock = pygame.time.Clock()
 
-done = False
+# done = False
 
-while not done:
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            pygame.quit()
-            quit()
+# while not done:
+#     for event in pygame.event.get():
+#         if event.type == pygame.QUIT:
+#             pygame.quit()
+#             quit()
     
-    displayScreen.fill(white)
+#     displayScreen.fill(white)
          
-    pygame.display.update()
-    clock.tick(60)
+#     pygame.display.update()
+#     clock.tick(60)
